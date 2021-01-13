@@ -1,0 +1,100 @@
+@font-face{
+  font-family: 'daily-prophet';
+  src:url(./assets/fonts/mugglenews_by_nathanthenerd.ttf);
+}
+
+@font-face{
+  font-family: 'rokkitt';
+  src:url(./assets/fonts/Rokkitt-VariableFont_wght.ttf);
+}
+
+p{
+  margin: 0;
+}
+
+body{
+  /* background: url(Old-newspaper-background-1.jpg); */
+  background: #dad3c1;
+  margin: 0 auto;
+  width: 820px;
+  border: 1px solid;
+}
+
+.divisor{
+  width: 100%;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 130px 1fr 150px;
+  position: absolute;
+  align-items: center;
+}
+
+.divisor.top{
+  top:17px;
+}
+.divisor.bottom{
+  bottom: 17px;
+}
+
+.divisor span{
+  font-size: 8px;
+  margin-right: 5px;
+  text-align: center;
+}
+
+hr{
+  width: 100%;
+  height: 0;
+  border: 2px solid black;
+}
+
+header{
+  position: relative;
+  display: grid;
+  grid-template-columns: 0.3fr 2fr;
+  height: 162px;
+}
+
+.logo{
+  width: 120px;
+  /* filter: invert(13%) sepia(48%) saturate(17%) hue-rotate(21deg) brightness(99%) contrast(94%); */
+}
+
+img{
+  width: 100%;
+}
+
+.title{
+  position: relative;
+  display: grid;
+  justify-items: center;
+  margin-top: 24px;
+}
+
+
+h1{
+  margin: 0;
+  font-size: 90px;
+  color: #2a2a29;
+  font-family: daily-prophet;
+}
+
+.prophet_letter{
+  color: #c6bd20;
+  text-shadow: 1px 1px 2px black;
+}
+
+.subtitle{
+  position: absolute;
+  font-family: 'Rokkitt', serif;
+  top: 88px;
+  display: flex;
+  grid-template-columns: 0.1fr 1fr 0.1fr;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.star{
+  width: 18px;
+}
+
