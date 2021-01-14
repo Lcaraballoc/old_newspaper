@@ -8,6 +8,11 @@
   src:url(./assets/fonts/Rokkitt-VariableFont_wght.ttf);
 }
 
+@font-face{
+  font-family: 'economica';
+  src:url(./assets/fonts/Economica-Bold.ttf);
+}
+
 p{
   margin: 0;
 }
@@ -17,7 +22,7 @@ body{
   background: #dad3c1;
   margin: 0 auto;
   width: 820px;
-  border: 1px solid;
+
 }
 
 .divisor{
@@ -97,4 +102,76 @@ h1{
 .star{
   width: 18px;
 }
+
+.announces{
+  display: grid;
+  grid-template-columns: 3fr repeat(4, 1fr);
+}
+
+
+.rewardContainer{
+  background-color: black;
+  padding: 3px;
+}
+
+.reward{
+  display: flex;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+
+.rewardValue{
+  display: flex;
+  font-family: economica;
+  width: 50%;
+  font-size: 60px;
+  text-shadow: 1px 1px 0 white, 
+                2px 2px 0 white;
+  color: #dad3c1;
+}
+
+.rewardValue p{
+  -webkit-text-stroke: 1px red;
+}
+
+.currency{
+  /* width: 10px; */
+  font-size: 28px;
+  writing-mode: vertical-lr;
+  /* transform: rotate(90deg); */
+}
+
+.rewardName{
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rewardNameText{
+  width: 100%;
+  font-size: 28px;
+  text-transform:uppercase;
+}
+
+.rewardNameText2{
+  width: 48%;
+  font-size: 28px;
+  text-transform:uppercase;
+}
+
+.placeToBeRewarded{
+  width: 80%;
+  text-align: center;
+  width: 52%;
+  font-size: 12px;
+}
+
+.weather p, .zodiac p{
+  font-size: 10px;
+}
+.weather h5, .zodiac h5{
+  margin: 0;
+}
+
 
