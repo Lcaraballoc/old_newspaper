@@ -174,4 +174,20 @@ h1{
   margin: 0;
 }
 
+/* main{
+  position: relative;
+} */
+
+.mainArticle{
+  column-count: 3;
+}
+
+.articlePicture{
+ /*  position: absolute; */
+  width: 30%;
+  margin-top: 110px;
+  shape-outside: border-box;
+  float: left;
+}
+
 
